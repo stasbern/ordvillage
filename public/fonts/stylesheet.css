@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Kamikaze';
+    src: url('kamikaze.regular.ttf') format('ttf'),
+         url('kamikaze.regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'manga';
+    src: url('manga-temple.ttf') format('ttf'),
+         url('manga-temple.regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

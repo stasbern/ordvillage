@@ -1,0 +1,7 @@
+body {
+    background-image: url("../public/background.png");
+    background-size:cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}

@@ -1,0 +1,37 @@
+.topnavbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 10px 20px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Kamikaze', sans-serif;
+}
+
+.navLeft, .navRight {
+  display: flex;
+  align-items: center;
+}
+
+.navCenter {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.topnavbar a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.topnavbar a:hover {
+  color: #555;
+}
